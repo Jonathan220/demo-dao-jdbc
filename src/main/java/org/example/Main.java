@@ -18,5 +18,10 @@ public class Main {
         for(Seller obj : list){
             System.out.println(obj);
         }
+
+        list = sellerDao.findAll();
+        for(Seller obj : list){
+            System.out.println(obj);
+        }
     }
 }
